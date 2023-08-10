@@ -15,4 +15,4 @@ def mechanics():
         corr_answer = n1 - n2
     elif operator == '*':
         corr_answer = n1 * n2
-    return question, corr_answer
+    return question, str(corr_answer)
