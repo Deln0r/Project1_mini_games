@@ -6,3 +6,5 @@
 https://asciinema.org/a/5VPFJCGij3vJxI3jGDvhv37wm
 ### asciinema game 2 - calc
 https://asciinema.org/a/HB3qUZcgVbdwsqyC5d4iv3Puw
+### asciinema game 3 - gcd
+https://asciinema.org/a/Ub98e2476GhgQlqFv0xjkrBOh
