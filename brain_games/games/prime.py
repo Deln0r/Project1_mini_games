@@ -10,10 +10,10 @@ def mechanics():
 
 
 def is_prime(n):
-    d = 2
-    while d * d <= n and n % d != 0:
-        d += 1
-    if d * d > n:
+    divider = 2
+    while divider * divider <= n and n % divider != 0:
+        divider += 1
+    if divider * divider > n:
         return 'yes'
     else:
         return 'no'

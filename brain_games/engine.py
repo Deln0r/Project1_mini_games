@@ -1,4 +1,5 @@
 import prompt
+ROUNDS = 3
 
 
 def play(game):
@@ -6,7 +7,7 @@ def play(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.RULES)
-    for round in range(3):
+    for round in range(ROUNDS):
         question, corr_answer = game.mechanics()
         print(f"Question: {question}")
         answer = prompt.string('Your answer: ')
