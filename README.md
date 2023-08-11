@@ -10,5 +10,5 @@ https://asciinema.org/a/HB3qUZcgVbdwsqyC5d4iv3Puw
 https://asciinema.org/a/Ub98e2476GhgQlqFv0xjkrBOh
 ### asciinema game 4 - progression
 https://asciinema.org/a/EV5AZNNRACJ319Y8522KYgtLL
-### asciinema game 4 - prime number
+### asciinema game 5 - prime number
 https://asciinema.org/a/M7x9VRlo7mD88X8y2eeNyd4Ss
