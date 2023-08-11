@@ -1,3 +1,7 @@
-.venv/
+__pycache__
 dist/
-__pycache__/
+*.pyc
+.venv/
+.coverage
+coverage.xml
+.pytest_cache/
