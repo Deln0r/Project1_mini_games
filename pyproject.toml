@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "5 Math mini-games"
 authors = ["Ian Chechin <delnor40rus@gmail.com>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
+repository = "https://github.com/Deln0r/python-project-49"
 
 [tool.poetry.dependencies]
 python = "^3.10"
