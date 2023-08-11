@@ -8,3 +8,5 @@ https://asciinema.org/a/5VPFJCGij3vJxI3jGDvhv37wm
 https://asciinema.org/a/HB3qUZcgVbdwsqyC5d4iv3Puw
 ### asciinema game 3 - gcd
 https://asciinema.org/a/Ub98e2476GhgQlqFv0xjkrBOh
+### asciinema game 4 - progression
+https://asciinema.org/a/EV5AZNNRACJ319Y8522KYgtLL
