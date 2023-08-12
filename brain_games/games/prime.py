@@ -11,6 +11,8 @@ def mechanics():
 
 def is_prime(n):
     divider = 2
+    if n == 1:
+        return 'no'
     while divider * divider <= n and n % divider != 0:
         divider += 1
     if divider * divider > n:
