@@ -11,5 +11,5 @@ def mechanics():
         progression.append(i)
     corr_answer = progression[rand_index]
     progression[rand_index] = '..'
-    question = progression
+    question = " ".join(map(str, (progression)))
     return question, str(corr_answer)
