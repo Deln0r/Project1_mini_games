@@ -8,14 +8,14 @@ def play(game):
     print(f'Hello, {name}!')
     print(game.RULES)
     for round in range(ROUNDS):
-        question, corr_answer = game.mechanics()
+        question, corr_answer = game.get_question_and_answer()
         print(f"Question: {question}")
         answer = prompt.string('Your answer: ')
         if corr_answer == answer:
             print('Correct!')
         else:
-            f'\"{answer}\" is wrong answer ;(.'
-            f' Correct answer was "{corr_answer}".'
+            print(f'"{answer}" is wrong answer ;(.'
+                  f' Correct answer was "{corr_answer}".')
             print(f'Let\'s try again, {name}!')
             break
     else:
