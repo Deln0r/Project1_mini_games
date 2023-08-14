@@ -6,6 +6,11 @@ authors = ["Ian Chechin <delnor40rus@gmail.com>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
 repository = "https://github.com/Deln0r/python-project-49"
+classifiers=[
+    'Environment :: Console',
+    'Programming Language :: Python',
+    'Topic :: Games',
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
