@@ -10,18 +10,19 @@ ITEMS_IN_LIST = 10
 
 
 def get_question_and_answer():
-    RANDOM_INDEX = randint(MIN_RANDOM_INDEX, MAX_RANDOM_INDEX)
-    progression = make_progression()
-    corr_answer = progression[RANDOM_INDEX]
-    progression[RANDOM_INDEX] = '..'
+    a1 = randint(MIN_FIRST_NUMBER, MAX_FIRST_NUMBER)
+    d = randint(MIN_STEP_SIZE, MIN_STEP_SIZE)
+    random_index = randint(MIN_RANDOM_INDEX, MAX_RANDOM_INDEX)
+    progression = make_progression(a1, d)
+    corr_answer = progression[random_index]
+    progression[random_index] = '..'
     question = " ".join(map(str, (progression)))
     return question, str(corr_answer)
 
 
-def make_progression():
-    start = randint(MIN_FIRST_NUMBER, MAX_FIRST_NUMBER)
-    step = randint(MIN_STEP_SIZE, MIN_STEP_SIZE)
-    progression = [start]
-    for i in range(start + step, start + step * ITEMS_IN_LIST, step):
+def make_progression(a1, d):
+
+    progression = [a1]
+    for i in range(a1 + d, a1 + d * ITEMS_IN_LIST, d):
         progression.append(i)
     return progression
